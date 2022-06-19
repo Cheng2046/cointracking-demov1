@@ -18,7 +18,7 @@
 
 ## Screencast link
 
-- refer to the video if by any chance the project couldn't be installed locally:
+- refer to the video if by any chance the project couldn't be run locally:
 
 ## Others
 
