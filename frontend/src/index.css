@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template: auto auto / repeat(3, 1fr);
+  gap: 10px;
+}
+
+.card {
+  height: 150px;
+  width: 300px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  justify-content:space-between;
+}
+
+.coin-name{ 
+ margin: 10px 0px 0px 10px;
+}
+
+.coin-price{ 
+  margin: 5px 0px 0px 10px;
+  color: #f19618;
+ }
+
+ .coin-bottom{
+   display: flex;
+   justify-content:space-between;
+   font-size: smaller;
+   margin-bottom: 20px;
+ }
+
+ .coin-change{
+ margin-right: 100px;
+ }
+ 
+ 
