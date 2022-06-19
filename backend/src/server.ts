@@ -1,6 +1,10 @@
 import express, {Application, Request, Response} from 'express';
 
+const cors = require('cors');
+
 const app: Application = express ();
+
+app.use(cors());
 
 //assuming the data is fetched from api and restructured as below:
 
@@ -62,3 +66,4 @@ app.get('/', (req: Request, res: Response) => {
 });
 
 app.listen(5000, () => console.log("Server running"))
+
